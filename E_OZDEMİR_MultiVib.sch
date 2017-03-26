@@ -1,0 +1,234 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:MJB41C
+LIBS:E_OZDEMİR_MultiVib-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "E_OZDEMİR_MultiVib_Homework"
+Date "2017-03-14"
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CP1 C1
+U 1 1 58C84A31
+P 5700 3000
+F 0 "C1" H 5725 3100 50  0000 L CNN
+F 1 "47uF" H 5725 2900 50  0000 L CNN
+F 2 "" H 5700 3000 50  0000 C CNN
+F 3 "" H 5700 3000 50  0000 C CNN
+	1    5700 3000
+	0    -1   1    0   
+$EndComp
+$Comp
+L CP1 C2
+U 1 1 58C84C45
+P 7000 3000
+F 0 "C2" H 7025 3100 50  0000 L CNN
+F 1 "47uF" H 7025 2900 50  0000 L CNN
+F 2 "" H 7000 3000 50  0000 C CNN
+F 3 "" H 7000 3000 50  0000 C CNN
+	1    7000 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 58C84DE6
+P 5200 2400
+F 0 "R1" V 5280 2400 50  0000 C CNN
+F 1 "470R" V 5200 2400 50  0000 C CNN
+F 2 "" V 5130 2400 50  0000 C CNN
+F 3 "" H 5200 2400 50  0000 C CNN
+	1    5200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 58C85049
+P 6100 2400
+F 0 "R2" V 6180 2400 50  0000 C CNN
+F 1 "47R" V 6100 2400 50  0000 C CNN
+F 2 "" V 6030 2400 50  0000 C CNN
+F 3 "" H 6100 2400 50  0000 C CNN
+	1    6100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 58C850B3
+P 6600 2400
+F 0 "R3" V 6680 2400 50  0000 C CNN
+F 1 "47R" V 6600 2400 50  0000 C CNN
+F 2 "" V 6530 2400 50  0000 C CNN
+F 3 "" H 6600 2400 50  0000 C CNN
+	1    6600 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 58C850FC
+P 7500 2400
+F 0 "R4" V 7580 2400 50  0000 C CNN
+F 1 "470R" V 7500 2400 50  0000 C CNN
+F 2 "" V 7430 2400 50  0000 C CNN
+F 3 "" H 7500 2400 50  0000 C CNN
+	1    7500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 58C85210
+P 5200 1600
+F 0 "D1" H 5200 1700 50  0000 C CNN
+F 1 "LED" H 5200 1500 50  0000 C CNN
+F 2 "" H 5200 1600 50  0000 C CNN
+F 3 "" H 5200 1600 50  0000 C CNN
+	1    5200 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D2
+U 1 1 58C85350
+P 7500 1600
+F 0 "D2" H 7500 1700 50  0000 C CNN
+F 1 "LED" H 7500 1500 50  0000 C CNN
+F 2 "" H 7500 1600 50  0000 C CNN
+F 3 "" H 7500 1600 50  0000 C CNN
+	1    7500 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Battery BT1
+U 1 1 58C85576
+P 3500 2700
+F 0 "BT1" H 3600 2800 50  0000 L CNN
+F 1 "9V" H 3600 2700 50  0000 L CNN
+F 2 "" V 3500 2760 50  0000 C CNN
+F 3 "" V 3500 2760 50  0000 C CNN
+	1    3500 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2900 3500 4800
+Wire Wire Line
+	3500 4800 8100 4800
+Connection ~ 5200 4800
+Wire Wire Line
+	6400 3000 6400 4250
+Wire Wire Line
+	6400 3000 6850 3000
+Wire Wire Line
+	5850 3000 6250 3000
+Wire Wire Line
+	6250 3000 6250 3800
+Wire Wire Line
+	6250 3800 7000 3800
+Wire Wire Line
+	7000 3800 7000 4200
+Wire Wire Line
+	6100 2550 6100 3000
+Connection ~ 6100 3000
+Wire Wire Line
+	6600 2550 6600 3000
+Connection ~ 6600 3000
+Wire Wire Line
+	3500 2500 3500 1000
+Wire Wire Line
+	3500 1000 7500 1000
+Wire Wire Line
+	7500 1000 7500 1450
+Wire Wire Line
+	7500 1750 7500 2250
+Wire Wire Line
+	5200 1750 5200 2250
+Wire Wire Line
+	5200 1450 5200 1000
+Connection ~ 5200 1000
+Wire Wire Line
+	6100 2250 6100 1000
+Connection ~ 6100 1000
+Wire Wire Line
+	6600 2250 6600 1000
+Connection ~ 6600 1000
+Wire Wire Line
+	5550 3000 5200 3000
+Connection ~ 5200 3000
+Wire Wire Line
+	7150 3000 7500 3000
+Connection ~ 7500 3000
+$Comp
+L MJB41C U1
+U 1 1 58D84547
+P 5200 3850
+F 0 "U1" H 5650 4300 60  0000 C CNN
+F 1 "MJB41C" H 4800 4300 60  0000 C CNN
+F 2 "" H 5200 3850 60  0001 C CNN
+F 3 "" H 5200 3850 60  0001 C CNN
+	1    5200 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5200 2550 5200 3450
+Wire Wire Line
+	6400 4250 5300 4250
+Wire Wire Line
+	5050 4250 5050 4800
+Wire Wire Line
+	5050 4800 5200 4800
+Wire Wire Line
+	7500 2550 7500 3150
+$Comp
+L MJB41C U2
+U 1 1 58D846D8
+P 7700 4100
+F 0 "U2" H 8150 4550 60  0000 C CNN
+F 1 "MJB41C" H 7300 4550 60  0000 C CNN
+F 2 "" H 7700 4100 60  0001 C CNN
+F 3 "" H 7700 4100 60  0001 C CNN
+	1    7700 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8100 4800 8100 4100
+Wire Wire Line
+	7000 4200 7300 4200
+Wire Wire Line
+	7300 3950 7300 3150
+Wire Wire Line
+	7300 3150 7500 3150
+$EndSCHEMATC
