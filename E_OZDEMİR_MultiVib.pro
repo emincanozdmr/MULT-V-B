@@ -1,4 +1,4 @@
-update=27.03.2017 01:41:53
+update=27.05.2017 17:11:52
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=Library
+LibDir=Library;C:/Users/EMİN CAN/Desktop/PCB/MultiVib/Library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,4 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=Library/MJB41C
+LibName30=Library/2n3019
